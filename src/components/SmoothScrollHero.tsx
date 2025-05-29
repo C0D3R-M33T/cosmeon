@@ -26,7 +26,7 @@ export const SmoothScrollHero = () => {
 const Nav = () => {
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between px-6 py-3 text-white">
-      {/* You can add content here if needed */}
+      {/* Add your logo or nav links here */}
     </nav>
   );
 };
@@ -67,17 +67,16 @@ const CenterImage = () => {
 
   return (
     <motion.div
-      className="sticky top-0 h-screen w-full"
-      style={{
-        clipPath,
-        backgroundSize,
-        opacity,
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1460186136353-977e9d6085a1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    />
+  className="sticky top-0 h-screen w-full"
+  style={{
+    clipPath,
+    backgroundSize,
+    opacity,
+    backgroundImage: "url(/assets/cosmeon_main.png)",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+/>
   );
 };
 
@@ -85,33 +84,34 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src="https://images.unsplash.com/photo-1484600899469-230e8d1d59c0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="An example of a space launch"
-        start={-200}
-        end={200}
-        className="w-1/3"
+        src="/assets/launch.jpeg"
+        alt="Launch"
+        start={-300}
+        end={300}
+        className="w-1/2 mx-auto"
       />
       <ParallaxImg
-        src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Another space launch"
+        src="/assets/cosmeon_sat.png"
+        alt="Satellite"
         start={200}
         end={-250}
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Orbiting satellite"
+        src="/assets/glex_img1.jpg"
+        alt="GLEX Image 1"
         start={-200}
         end={200}
         className="ml-auto w-1/3"
       />
       <ParallaxImg
-        src="https://images.unsplash.com/photo-1494022299300-899b96e49893?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="More orbiting tech"
+        src="/assets/glex_us.jpg"
+        alt="GLEX US"
         start={0}
         end={-500}
         className="ml-24 w-5/12"
       />
+      
     </div>
   );
 };

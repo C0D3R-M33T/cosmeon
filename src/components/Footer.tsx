@@ -68,10 +68,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-6">Contact</h3>
             <ul className="space-y-4 text-gray-400">
-              <li>1234 Space Avenue</li>
-              <li>Houston, TX 77001</li>
-              <li>contact@cosmeon.com</li>
-              <li>(800) 555-0123</li>
+              <li>Cosmos, Beyond Earth</li>
+              <li>contact.cosmeon@gmail.com</li>
+              <li>contact.roshmeet@gmail.com</li>
+              <li>+91-70445-29443</li>
             </ul>
           </div>
         </div>
