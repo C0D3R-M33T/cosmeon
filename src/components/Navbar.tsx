@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Rocket } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
