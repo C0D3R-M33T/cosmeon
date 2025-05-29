@@ -14,7 +14,7 @@ const Hero = () => {
     <source src="/assets/sat_from_space.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-  <div className="absolute inset-0 bg-gradient-to-b from-mono-950/80 to-mono-950"></div>
+  <div className="absolute inset-0 bg-gradient-to-b from-mono-900/80 to-mono-950"></div>
 </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">

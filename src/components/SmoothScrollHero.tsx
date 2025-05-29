@@ -84,7 +84,7 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src="/assets/launch.jpeg"
+        src="/assets/glex_img1.jpg"
         alt="Launch"
         start={-300}
         end={300}
@@ -98,7 +98,7 @@ const ParallaxImages = () => {
         className="mx-auto w-2/3"
       />
       <ParallaxImg
-        src="/assets/glex_img1.jpg"
+        src="/assets/launch.jpeg"
         alt="GLEX Image 1"
         start={-200}
         end={200}

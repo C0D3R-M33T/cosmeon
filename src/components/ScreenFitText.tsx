@@ -1,4 +1,3 @@
-// ScreenFitText.tsx
 import React, { useEffect, useRef } from "react";
 
 export const ScreenFitText = ({ text }: { text: string }) => {
@@ -6,9 +5,18 @@ export const ScreenFitText = ({ text }: { text: string }) => {
   const textRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
-    resizeText();
+    const resizeObserver = new ResizeObserver(() => resizeText());
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
     window.addEventListener("resize", resizeText);
-    return () => window.removeEventListener("resize", resizeText);
+
+    return () => {
+      if (containerRef.current) {
+        resizeObserver.unobserve(containerRef.current);
+      }
+      window.removeEventListener("resize", resizeText);
+    };
   }, []);
 
   const resizeText = () => {
@@ -18,7 +26,7 @@ export const ScreenFitText = ({ text }: { text: string }) => {
     if (!container || !textEl) return;
 
     const containerWidth = container.offsetWidth;
-    let min = 1;
+    let min = 10;
     let max = 250;
 
     while (min <= max) {
@@ -35,10 +43,14 @@ export const ScreenFitText = ({ text }: { text: string }) => {
   };
 
   return (
-    <div ref={containerRef} className="w-full h-auto overflow-hidden text-center">
+    <div
+      ref={containerRef}
+      className="w-full px-4 sm:px-6 lg:px-8 text-center"
+    >
       <span
         ref={textRef}
-        className="whitespace-nowrap font-bold uppercase text-slate-500 block"
+        className="whitespace-nowrap font-bold uppercase text-slate-500 block leading-none"
+        style={{ lineHeight: 1 }}
       >
         {text}
       </span>
