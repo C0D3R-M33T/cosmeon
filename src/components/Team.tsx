@@ -136,10 +136,10 @@ const Team = () => {
           </p>
         </div>
 
-        {renderSection('Founders', founders)}
-        {renderSection('Hardware Team', hardwareTeam)}
-        {renderSection('Software Team', softwareTeam)}
-        {renderSection('Communications Team', communicationsTeam)}
+        {renderSection('Founding Leadership Board', founders)}
+        {renderSection('Directorate of Structural & Avionics Systems', hardwareTeam)}
+        {renderSection('Directorate of Software & Orbital Networks', softwareTeam)}
+        {renderSection('Directorate of Power, Comms & Thermal Systems', communicationsTeam)}
       </div>
     </section>
   );

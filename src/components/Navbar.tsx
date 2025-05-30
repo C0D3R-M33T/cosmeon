@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
           </nav>
 
-          {/* CTA button */}
+          {/* CTA button
           <div className="hidden md:block">
             <a
               href="#contact"
@@ -59,7 +59,7 @@ const Navbar = () => {
             >
               Join the Mission
             </a>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">

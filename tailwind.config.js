@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Urbanist', 'ui-sans-serif', 'system-ui'],
+      },
       colors: {
         mono: {
           50: '#fafafa',
@@ -16,11 +19,20 @@ export default {
           800: '#262626',
           900: '#171717',
           950: '#0a0a0a',
-        }
+        },
       },
       boxShadow: {
-        'glow': '0 0 15px rgba(255, 255, 255, 0.15)',
-      }
+        glow: '0 0 15px rgba(255, 255, 255, 0.15)',
+      },
+      animation: {
+        marquee: 'marquee 30s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
     },
   },
   plugins: [],

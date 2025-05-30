@@ -8,7 +8,9 @@ import UseCases from './components/UseCases';
 import Team from './components/Team';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';// ✅ Import TimelineDemo
+import ScrollToTop from './components/ScrollToTop';
+// import LogoCarousel from './components/LogoCarousel';
+import Timeline from './components/Timeline'; 
 
 function App() {
   return (
@@ -18,11 +20,10 @@ function App() {
         <Hero />
         <SmoothScrollHero />
         <About />
+        <Timeline />
         <Services />
         <UseCases />
-
-    
-
+        {/* <LogoCarousel /> */}
         <Team />
         <Cta />
       </main>

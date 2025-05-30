@@ -29,12 +29,6 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-              href="#contact" 
-              className="bg-mono-100 text-mono-950 font-medium px-8 py-3 rounded-full hover:bg-mono-200 transition-all duration-300"
-            >
-              Join the Mission
-            </a>
-            <a 
               href="#services" 
               className="bg-transparent border-2 border-mono-100 text-mono-100 font-medium px-8 py-3 rounded-full hover:bg-mono-100 hover:text-mono-950 transition-colors duration-300"
             >
