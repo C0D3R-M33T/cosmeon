@@ -15,6 +15,7 @@
     "@tabler/icons-react": "^3.33.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.15.0",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.344.0",
     "motion": "^12.15.0",
     "react": "^18.3.1",
