@@ -10,14 +10,14 @@ interface TeamMember {
 const founders: TeamMember[] = [
   {
     name: 'Roshmeet Chakraborty',
-    role: 'Founder & Board Chair',
-    bio: 'Former DRDO Research Assistant & Project Manager',
+    role: 'Founder & CEO',
+    description: 'Leads company strategy and operations.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Debjit Naskar',
     role: 'Co-Founder & Chief Technical Officer',
-    bio: 'AI and distributed systems expert who previously led R&D at major cloud providers',
+    description: 'Leads COSMEON’s technical and security teams, with expertise in Security',
     imageSrc: '/assets/user.jpg',
   },
 ];
@@ -25,20 +25,20 @@ const founders: TeamMember[] = [
 const hardwareTeam: TeamMember[] = [
   {
     name: 'Ritabhasha Chowdhury',
-    role: 'Director of Hardware Architecture',
-    bio: 'Spacecraft systems engineer specialized in CubeSat design and orbital mechanics',
+    role: 'Director of Embedded Systems and Electronics',
+    description: 'Designs embedded systems for onboard control and manages CubeSat electronic subsystem integration.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Ronit Kumar',
-    role: 'Principal Embedded Systems Engineer',
-    bio: 'Quantum computing researcher with background in space-based communications',
+    role: 'Principal Hardware Architect',
+    description: 'Develops advanced space-grade custom electronics and hardware for resilient satellite computing.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Avipsho Sinha',
     role: 'Director of Structural Design and Mechanics',
-    bio: 'Specialist in satellite telemetry, tracking, and control systems.',
+    description: 'Responsible for mechanical architecture, vibration analysis, and deployment mechanisms of the satellite bus.',
     imageSrc: '/assets/user.jpg',
   },
 ];
@@ -47,25 +47,25 @@ const softwareTeam: TeamMember[] = [
   {
     name: 'Arkapravo Ghosh',
     role: 'Director of Software Development Engineering',
-    bio: 'Veteran in zero-trust frameworks and orbital comms encryption.',
+    description: 'Leads core software architecture, secure orbital communication protocols, and backend infrastructure.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Amborish Sen',
     role: 'Principal Engineer of Satellite Networking',
-    bio: 'Models orbital paths and collision avoidance systems.',
+    description: 'Builds low-latency inter-satellite communication systems and oversees orbital mesh network logic.',
     imageSrc: '/assets/user.jpg',
   },
   {
-    name: 'Sayanika Das',
+    name: 'Shayanika Das',
     role: 'Director of Data Integrity and Compliance',
-    bio: 'Designs intuitive dashboards for orbital infrastructure users.',
+    description: 'Ensures data protection, compliance, and secure onboard storage systems across orbital layers.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Ayan Mondal',
     role: 'Principal Software System Architect',
-    bio: 'Models orbital paths and collision avoidance systems.',
+    description: 'Architects COSMEON’s software stack for in-orbit AI inference, control, and data processing.',
     imageSrc: '/assets/user.jpg',
   },
 ];
@@ -74,13 +74,13 @@ const communicationsTeam: TeamMember[] = [
   {
     name: 'Suryasish Basu',
     role: 'Director of Satellite Communications',
-    bio: 'Focuses on translating technical possibilities into user-centric space solutions.',
+    description: 'Designs RF systems, antenna arrays, and ensures seamless uplink-downlink protocols for LEO missions.',
     imageSrc: '/assets/user.jpg',
   },
   {
     name: 'Rudraneel Saha',
     role: 'Principal Architect of Thermal and Power Systems',
-    bio: 'Researches usability patterns for orbital computing interfaces.',
+    description: 'Leads the design of power distribution, solar energy management, and thermal regulation onboard COSMEON satellites.',
     imageSrc: '/assets/user.jpg',
   },
 ];
@@ -106,7 +106,7 @@ const Team = () => {
             <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
               <div className="bg-mono-900/90 backdrop-blur-sm p-6 rounded-xl">
                 <h3 className="text-xl font-semibold text-mono-100 mb-1">{member.name}</h3>
-                <p className="text-mono-300 font-medium mb-3">{member.role}</p>
+                <p className="text-mono-300 font-medium mb-3">{member.description}</p>
                 <p className="text-mono-400 text-sm">{member.bio}</p>
               </div>
             </div>

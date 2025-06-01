@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Logo */}
         <div>
           <img
-            src="/assets/logo_gold.png"
+            src="/assets/logo_nav.png"
             alt="Cosmeon Logo"
             className="mx-auto h-24 w-auto"
           />

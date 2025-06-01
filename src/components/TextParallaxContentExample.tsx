@@ -29,7 +29,7 @@ const TextParallaxContentExample = () => {
       >
         <SectionContent
           title="Turning Orbit into Cloud"
-          text1="TCOSMEON uses CubeSats in Low Earth Orbit to create a resilient mesh network that stores data, runs AI computations, and securely relays information between Earth and orbit — independent of any one nation’s grid or land."
+          text1="COSMEON uses CubeSats in Low Earth Orbit to create a resilient mesh network that stores data, runs AI computations, and securely relays information between Earth and orbit — independent of any one nation’s grid or land."
           text2="This is infrastructure that floats, scales, and operates globally by design."
           buttonLabel="Explore Architecture"
         />
