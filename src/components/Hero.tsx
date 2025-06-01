@@ -19,7 +19,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="max-w-4xl">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl text-white mb-6 leading-tight">
           Powering the New Space Age with COSMEON
           </h1>
           

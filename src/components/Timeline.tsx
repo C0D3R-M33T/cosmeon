@@ -73,7 +73,7 @@ export default function TimelineDemo() {
     
           {/* Image under October */}
           <img
-            src="/assets/logo_gold.png"
+            src="/assets/logo_nav.png"
             alt="COSMEON Logo"
             className="w-full max-w-md mx-auto rounded-lg shadow-md object-contain"
           />
