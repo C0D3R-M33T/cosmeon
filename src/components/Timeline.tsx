@@ -20,7 +20,7 @@ export default function TimelineDemo() {
         <div className="space-y-6">
           <ul className="list-disc ml-6 space-y-3 text-base md:text-lg leading-relaxed text-neutral-200">
             <li>
-              Came across an article from Columbia Climate School on AI’s growing carbon footprint
+              Came across an article from Columbia Climate School on AI's growing carbon footprint
             </li>
             <li>
               Watched CBS News interview with Jeff Bezos about moving heavy/polluting industry off Earth
@@ -122,13 +122,13 @@ export default function TimelineDemo() {
           <ul className="list-disc ml-6 space-y-3 text-base md:text-lg leading-relaxed text-neutral-200">
             <li>Received incubation and acceptance letter from AIC MUJ, Manipal University Jaipur</li>
           </ul>
-          <div className="w-full flex justify-center">
+          {/* <div className="w-full flex justify-center">
             <img
               src="/assets/upcoming_warehouse.png"
               alt="Incubation Letter"
               className="w-full max-w-[600px] h-[350px] object-cover rounded-lg shadow-md"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },
@@ -137,15 +137,15 @@ export default function TimelineDemo() {
       content: (
         <div className="space-y-6">
           <ul className="list-disc ml-6 space-y-3 text-base md:text-lg leading-relaxed text-neutral-200">
-            <li>Submitted thesis report of COSMEON to Atan Incubation Center, Jaipur Division, Manipal University</li>
+            <li>Submitted thesis report of COSMEON to Atal Incubation Center, Jaipur Division, Manipal University</li>
           </ul>
-          <div className="w-full flex justify-center">
+          {/* <div className="w-full flex justify-center">
             <img
               src="/assets/upcoming_warehouse.png"
               alt="Thesis Submission"
               className="w-full max-w-[600px] h-[350px] object-cover rounded-lg shadow-md"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },
@@ -185,7 +185,7 @@ export default function TimelineDemo() {
           </ul>
           <div className="flex justify-center">
             <img
-              src="/assets/glex_img1.jpg" // Replace with your actual image path
+              src="/assets/glex_group.JPG" // Replace with your actual image path
               alt="Industry Dialogue"
               className="rounded-xl shadow-lg w-full max-w-xl"
             />

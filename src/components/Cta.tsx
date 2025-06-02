@@ -92,7 +92,7 @@ const Cta = () => {
               </p>
               <div className="space-y-4">
                 <a
-                  href="mailto:contact.cosmeon@gmail.com"
+                  href="mailto:contact@cosmeon.in"
                   className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
                 >
                   <svg
@@ -109,9 +109,9 @@ const Cta = () => {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  contact.cosmeon@gmail.com
+                  contact@cosmeon.in
                 </a>
-                <a
+                {/* <a
                   href="tel:+917044529443"
                   className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
                 >
@@ -130,7 +130,7 @@ const Cta = () => {
                     />
                   </svg>
                   +91 - 70445-29443
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

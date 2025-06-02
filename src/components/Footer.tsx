@@ -1,6 +1,6 @@
 import React from 'react';
-import { Twitter, Linkedin, Github, Facebook } from 'lucide-react';
-import { ScreenFitText } from "./ScreenFitText";
+import { Twitter, Linkedin, Youtube } from 'lucide-react';
+// import { ScreenFitText } from "./ScreenFitText";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,16 +20,17 @@ const Footer = () => {
 
         {/* Tagline */}
         <p className="text-gray-400 text-lg sm:text-xl font-medium">
-          contact.cosmeon@gmail.com
+          contact@cosmeon.in
         </p>
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6">
           {[
-            { icon: <Facebook className="h-5 w-5" />, url: '#' },
-            { icon: <Github className="h-5 w-5" />, url: '#' },
-            { icon: <Twitter className="h-5 w-5" />, url: '#' },
-            { icon: <Linkedin className="h-5 w-5" />, url: '#' },
+            // { icon: <Facebook className="h-5 w-5" />, url: '#' },
+            // { icon: <Github className="h-5 w-5" />, url: '#' },
+            { icon: <Youtube className="h-5 w-5" />, url:'#'},
+            { icon: <Twitter className="h-5 w-5" />, url: 'https://x.com/C0SMEON' },
+            { icon: <Linkedin className="h-5 w-5" />, url: 'https://www.linkedin.com/company/cosmeontech/' },
           ].map((social, index) => (
             <a
               key={index}
