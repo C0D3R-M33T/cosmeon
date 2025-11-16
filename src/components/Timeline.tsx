@@ -206,6 +206,37 @@ export default function TimelineDemo() {
         </div>
       ),
     },
+    {
+      title: "2025, July",
+      content: (
+        <div className="space-y-6">
+          <ul className="list-disc ml-6 space-y-3 text-base md:text-lg leading-relaxed text-neutral-200">
+            <li>
+              Invited to speak at Space Policy Conference 2025, co-organized by ITU-APT Foundation of India and GSOA
+            </li>
+            <li>
+              Engaged with leaders from Viasat, Inmarsat, Nokia, the Ministry of Defence, DoT, ISRO, BSNL, and global partners on the future of satellite communications
+            </li>
+            <li>
+              Shared COSMEON&apos;s roadmap for D2D connectivity, spectrum coordination, and resilient orbital infrastructure
+            </li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      title: "Presently",
+      content: (
+        <div className="space-y-6">
+          <p className="text-base md:text-lg leading-relaxed text-neutral-200">
+            COSMEON is developing Prototype v0.1, an orbital infrastructure simulator validating the core architecture of our Orbital Cloud Infrastructure (OCI). It showcases unified distributed storage across simulated orbital nodes, low-latency inter-node communication, and intelligent routing through a dynamic satellite mesh.
+          </p>
+          <p className="text-base md:text-lg leading-relaxed text-neutral-200">
+            The prototype demonstrates on-orbit compute orchestration, fault-tolerant data sharding and recovery, and seamless ground-to-orbit interactions with real-time handovers. Prototype v0.1 proves that a functional, resilient, globally accessible orbital cloud network is achievable using scalable, lightweight, modular hardware clusters—the foundation for COSMEON&apos;s first in-orbit demo mission.
+          </p>
+        </div>
+      ),
+    },
     
   ];
 

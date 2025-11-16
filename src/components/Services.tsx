@@ -1,31 +1,71 @@
 import React from 'react';
-import { HardDrive, Cpu, Braces, Building2 } from 'lucide-react';
+import { HardDrive, Cpu, Braces, Satellite, FlaskConical, ShieldCheck, RadioTower, Leaf } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
       icon: <HardDrive className="h-12 w-12" />,
-      title: 'Orbital Data Storage',
-      description: 'Cloud storage solutions utilizing our network of low Earth orbit satellites.',
-      image: 'https://images.pexels.com/photos/60132/pexels-photo-60132.jpeg',
+      title: 'Orbital Data Storage (ODS)',
+      description:
+        'Secure, resilient storage hosted in orbit—shielded from terrestrial outages and reachable globally with low-latency access.',
+      image:
+        'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
     },
     {
       icon: <Cpu className="h-12 w-12" />,
-      title: 'Edge Computing from Space',
-      description: 'Distributed processing power from our orbital network.',
-      image: 'https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg',
+      title: 'Edge Computing from Orbit',
+      description:
+        'Real-time compute executed directly aboard satellites for AI inference, analytics, and instant decision-making.',
+      image:
+        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
     },
     {
       icon: <Braces className="h-12 w-12" />,
       title: 'Space-based AI Testing',
-      description: 'A unique environment for testing and training AI models in space.',
-      image: 'https://images.pexels.com/photos/8474484/pexels-photo-8474484.jpeg',
+      description:
+        'Isolated orbital sandboxes to evaluate AI models, ensuring algorithms adapt safely to the physics of space.',
+      image:
+        'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
     },
     {
-      icon: <Building2 className="h-12 w-12" />,
-      title: 'Remote Simulation',
-      description: 'Advanced simulation capabilities for education and research.',
-      image: 'https://images.pexels.com/photos/2156/sky-earth-space-working.jpg',
+      icon: <Satellite className="h-12 w-12" />,
+      title: 'Orbital Intelligence (EventGrid™)',
+      description:
+        'A multi-sensor observation lattice delivering real-time disaster alerts, climate intelligence, and infrastructure monitoring.',
+      image:
+        'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      icon: <FlaskConical className="h-12 w-12" />,
+      title: 'Coral Lab™ – Orbital Remote Simulation',
+      description:
+        'Remote lab access for universities and researchers to run simulations, test payloads, and stream live orbital sensor data.',
+      image:
+        'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      icon: <ShieldCheck className="h-12 w-12" />,
+      title: 'COSMEON Trust™ – Verification Layer',
+      description:
+        'A satellite-powered trust fabric that issues tamper-proof timestamps, notarizes media, and authenticates mission-critical documents.',
+      image:
+        'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      icon: <RadioTower className="h-12 w-12" />,
+      title: 'ModelCast™ – Orbital Broadcast Network',
+      description:
+        'One-to-many satellite broadcasting for firmware, AI model drops, and device patches delivered instantly without terrestrial networks.',
+      image:
+        'https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      icon: <Leaf className="h-12 w-12" />,
+      title: 'Sustainability & Impact Intelligence',
+      description:
+        'Orbital analytics that quantify carbon, energy, and water footprints so organizations can benchmark and improve performance.',
+      image:
+        'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80',
     },
   ];
 

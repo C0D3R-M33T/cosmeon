@@ -131,6 +131,35 @@ const Cta = () => {
                   </svg>
                   +91 - 70445-29443
                 </a> */}
+                <a
+                  href="https://www.linkedin.com/in/roshmeet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+                >
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.758 0 5-2.24 5-5v-14c0-2.76-2.242-5-5-5zm-11 20h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zm13.5 12.268h-3v-5.6c0-1.335-.027-3.055-1.863-3.055-1.864 0-2.151 1.454-2.151 2.957v5.698h-3v-11h2.881v1.507h.041c.401-.758 1.377-1.557 2.836-1.557 3.033 0 3.594 1.997 3.594 4.59v6.46z" />
+                  </svg>
+                  Connect on LinkedIn
+                </a>
+                <div className="pt-6 border-t border-white/10 mt-6">
+                  <p className="text-gray-300 mb-4">
+                    Prefer talking to the team directly? Share a bit about your mission and we&apos;ll reach out.
+                  </p>
+                  <a
+                    href="https://forms.gle/9k8No42CR4G7BhgP9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-full items-center justify-center rounded-lg border border-cyan-400 px-4 py-3 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-darkBlue-900 transition-colors"
+                  >
+                    Contact the Team
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -15,11 +15,11 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Use Cases', href: '#use-cases' },
-    { name: 'Team', href: '#team' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About', hash: 'about' },
+    { name: 'Services', hash: 'services' },
+    { name: 'Use Cases', hash: 'use-cases' },
+    { name: 'Team', hash: 'team' },
+    { name: 'Contact', hash: 'contact' },
   ];
 
   return (
@@ -41,14 +41,15 @@ const Navbar = () => {
           {/* Desktop menu */}
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
-              {navItems.map(({ name, href }) => (
+              {navItems.map(({ name, hash }) => (
                 <li key={name}>
-                  <a
-                    href={href}
+                  <Link
+                    to={`/#${hash}`}
                     className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {name}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <li>
@@ -57,6 +58,14 @@ const Navbar = () => {
                   className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
                 >
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/timeline"
+                  className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
+                >
+                  Timeline
                 </Link>
               </li>
             </ul>
@@ -91,15 +100,15 @@ const Navbar = () => {
         } bg-darkBlue-900/95 backdrop-blur-sm shadow-lg`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {navItems.map(({ name, href }) => (
-            <a
+          {navItems.map(({ name, hash }) => (
+            <Link
               key={name}
-              href={href}
+              to={`/#${hash}`}
               className="text-gray-300 hover:text-cyan-400 block px-3 py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {name}
-            </a>
+            </Link>
           ))}
           <Link
             to="/blog"
@@ -107,6 +116,13 @@ const Navbar = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Blog
+          </Link>
+          <Link
+            to="/timeline"
+            className="text-gray-300 hover:text-cyan-400 block px-3 py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Timeline
           </Link>
           <a
             href="#contact"
