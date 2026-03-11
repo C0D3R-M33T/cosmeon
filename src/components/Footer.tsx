@@ -35,7 +35,7 @@ const Footer = () => {
             <a
               key={index}
               href={social.url}
-              className="text-gray-400 hover:text-cyan-400 p-2 rounded-full transition-colors duration-300"
+              className="text-gray-400 hover:text-amber-400 p-2 rounded-full transition-colors duration-300"
               aria-label={`Social media link ${index + 1}`}
             >
               {social.icon}

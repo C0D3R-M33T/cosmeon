@@ -34,7 +34,7 @@ const ScrollToTop = () => {
         onClick={scrollToTop}
         className={`${
           isVisible ? 'opacity-100' : 'opacity-0'
-        } bg-cyan-500 hover:bg-cyan-400 text-darkBlue-900 p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 focus:outline-none`}
+        } bg-amber-500 hover:bg-amber-400 text-darkBlue-900 p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 focus:outline-none`}
         aria-label="Scroll to top"
       >
         <ArrowUp className="h-5 w-5" />

@@ -15,9 +15,9 @@ export default function HowSpaceWorks() {
           animate={{ rotate: 360 }}
           transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
         >
-          <div className="absolute inset-0 rounded-full border border-blue-500" />
+          <div className="absolute inset-0 rounded-full border border-amber-500" />
           <motion.div
-            className="absolute top-0 left-1/2 w-8 h-8 bg-blue-400 rounded-md shadow-lg"
+            className="absolute top-0 left-1/2 w-8 h-8 bg-amber-400 rounded-md shadow-lg"
             style={{ translateX: "-50%" }}
           />
         </motion.div>
@@ -50,7 +50,7 @@ export default function HowSpaceWorks() {
           <button className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md">
             View Use Cases
           </button>
-          <button className="border border-cyan-400 hover:bg-cyan-600 text-cyan-300 hover:text-white px-6 py-3 rounded-lg font-semibold shadow-md">
+          <button className="border border-amber-400 hover:bg-amber-600 text-amber-300 hover:text-white px-6 py-3 rounded-lg font-semibold shadow-md">
             Explore the Archi
           </button>
         </div>

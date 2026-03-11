@@ -67,7 +67,7 @@ export function FeaturesSectionDemo() {
                   </p>
                 ))}
               </FeatureDescription>
-              <div className="mt-4 text-blue-500 font-medium text-sm">{feature.link}</div>
+              <div className="mt-4 text-amber-500 font-medium text-sm">{feature.link}</div>
               {feature.image && (
                 <img
                   src={feature.image}

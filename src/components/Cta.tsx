@@ -39,7 +39,7 @@ const Cta = () => {
         <div className="max-w-4xl mx-auto bg-darkBlue-800 rounded-2xl p-8 md:p-12 shadow-xl backdrop-blur-md bg-opacity-90">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Join the <span className="text-cyan-400">Orbital Revolution</span>
+              Join the <span className="text-amber-400">Orbital Revolution</span>
             </h2>
             <p className="text-xl text-gray-300">
               Be among the first to access our groundbreaking space-based cloud infrastructure.
@@ -68,7 +68,7 @@ const Cta = () => {
                       id="email"
                       className={`w-full px-4 py-3 bg-darkBlue-900 border ${
                         error ? 'border-red-500' : 'border-gray-700'
-                      } rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white`}
+                      } rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 text-white`}
                       placeholder="you@example.com"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -77,7 +77,7 @@ const Cta = () => {
                   </div>
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-400 text-darkBlue-900 font-medium py-3 rounded-lg hover:shadow-glow-cyan transition-all duration-300"
+                    className="w-full bg-gradient-to-r from-amber-500 to-amber-400 text-darkBlue-900 font-medium py-3 rounded-lg hover:shadow-glow transition-all duration-300"
                   >
                     Subscribe
                   </button>
@@ -93,7 +93,7 @@ const Cta = () => {
               <div className="space-y-4">
                 <a
                   href="mailto:contact@cosmeon.in"
-                  className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+                  className="flex items-center text-amber-400 hover:text-amber-300 transition-colors"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
@@ -113,7 +113,7 @@ const Cta = () => {
                 </a>
                 {/* <a
                   href="tel:+917044529443"
-                  className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+                  className="flex items-center text-amber-400 hover:text-amber-300 transition-colors"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
@@ -135,7 +135,7 @@ const Cta = () => {
                   href="https://www.linkedin.com/in/roshmeet/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+                  className="flex items-center text-amber-400 hover:text-amber-300 transition-colors"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
@@ -155,7 +155,7 @@ const Cta = () => {
                     href="https://forms.gle/9k8No42CR4G7BhgP9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center rounded-lg border border-cyan-400 px-4 py-3 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-darkBlue-900 transition-colors"
+                    className="inline-flex w-full items-center justify-center rounded-lg border border-amber-400 px-4 py-3 text-amber-400 font-semibold hover:bg-amber-400 hover:text-darkBlue-900 transition-colors"
                   >
                     Contact the Team
                   </a>

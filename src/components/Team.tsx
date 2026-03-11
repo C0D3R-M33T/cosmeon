@@ -62,12 +62,6 @@ const softwareTeam: TeamMember[] = [
     description: 'Ensures data protection, compliance, and secure onboard storage systems across orbital layers.',
     imageSrc: '/assets/Shayanika.jpg',
   },
-  {
-    name: 'Ayan Mondal',
-    role: 'Principal Software System Architect',
-    description: 'Architects COSMEON’s software stack for in-orbit AI inference, control, and data processing.',
-    imageSrc: '/assets/Ayan.jpg',
-  },
 ];
 
 const communicationsTeam: TeamMember[] = [
@@ -82,15 +76,6 @@ const communicationsTeam: TeamMember[] = [
     role: 'Principal Architect of Thermal and Power Systems',
     description: 'Leads the design of power distribution, solar energy management, and thermal regulation onboard COSMEON satellites.',
     imageSrc: '/assets/Rudraneel.jpg',
-  },
-];
-
-const creativeTeam: TeamMember[] = [
-  {
-    name: 'Debarya Chowdhury',
-    role: 'Graphic Designer',
-    description: 'Crafts compelling visual narratives across digital and print media to communicate COSMEON’s mission. Specializes in translating complex space-tech concepts into accessible.',
-    imageSrc: '/assets/Debarya.jpg',
   },
 ];
 
@@ -151,7 +136,6 @@ const Team = () => {
         {renderSection('Directorate of Structural & Avionics Systems', hardwareTeam)}
         {renderSection('Directorate of Software & Orbital Networks', softwareTeam)}
         {renderSection('Directorate of Power, Comms & Thermal Systems', communicationsTeam)}
-        {renderSection('Marketing and Promotions', creativeTeam)}
       </div>
     </section>
   );

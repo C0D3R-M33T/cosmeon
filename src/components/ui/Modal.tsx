@@ -42,7 +42,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, cardData }) => {
         </div>
         <h3 className="text-2xl font-bold mb-2">{cardData.title}</h3>
         <p className="text-sm text-zinc-400 mb-4 whitespace-pre-line">{cardData.fullContent}</p>
-        <div className="text-xs uppercase text-blue-500 tracking-wider">{cardData.category}</div>
+        <div className="text-xs uppercase text-amber-500 tracking-wider">{cardData.category}</div>
       </div>
     </div>
   );

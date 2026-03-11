@@ -30,7 +30,7 @@ export const LogoCarousel = () => {
       </p>
 
       {/* Label */}
-      <p className="mt-10 text-sm uppercase tracking-widest text-cyan-400 font-semibold">
+      <p className="mt-10 text-sm uppercase tracking-widest text-amber-400 font-semibold">
         Our partners and supporters include:
       </p>
 

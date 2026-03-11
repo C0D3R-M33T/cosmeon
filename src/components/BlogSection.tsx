@@ -23,7 +23,7 @@ const BlogCard: React.FC<BlogCardProps & { onClick: () => void }> = ({
 }) => (
   <div
     onClick={onClick}
-    className="rounded-2xl overflow-hidden bg-zinc-900 text-white min-h-[480px] cursor-pointer transition-all duration-300 hover:bg-gradient-to-b hover:from-blue-900 hover:to-blue-700 hover:scale-[1.02]"
+    className="rounded-2xl overflow-hidden bg-zinc-900 text-white min-h-[480px] cursor-pointer transition-all duration-300 hover:bg-gradient-to-b hover:from-amber-900 hover:to-amber-700 hover:scale-[1.02]"
   >
     {imageSrc && (
       <img src={imageSrc} alt={title} className="w-full h-40 object-cover" />
@@ -35,7 +35,7 @@ const BlogCard: React.FC<BlogCardProps & { onClick: () => void }> = ({
       </div>
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-sm text-zinc-400 mb-4">{description}</p>
-      <div className="text-xs uppercase text-blue-500 tracking-wider">{category}</div>
+      <div className="text-xs uppercase text-amber-500 tracking-wider">{category}</div>
     </div>
   </div>
 );
@@ -107,7 +107,7 @@ const BlogSection: React.FC = () => {
           <br />
           <span className="relative inline-block">
             On Smart Contracts.
-            <span className="absolute bottom-0 left-0 h-1 w-full bg-blue-600"></span>
+            <span className="absolute bottom-0 left-0 h-1 w-full bg-amber-600"></span>
           </span>
         </h2>
 

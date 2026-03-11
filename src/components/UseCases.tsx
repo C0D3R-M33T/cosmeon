@@ -22,10 +22,10 @@ const CardSpotlight = ({
 }) => {
   return (
     <div
-      className={`relative overflow-hidden rounded-xl border border-white/[0.1] bg-darkBlue-800 p-8 shadow-xl transition-all duration-300 hover:shadow-cyan-500/30 group ${className}`}
+      className={`relative overflow-hidden rounded-xl border border-white/[0.1] bg-darkBlue-800 p-8 shadow-xl transition-all duration-300 hover:shadow-amber-500/30 group ${className}`}
     >
       <div className="pointer-events-none absolute -inset-px opacity-0 transition duration-300 group-hover:opacity-100">
-        <div className="absolute inset-0 animate-pulse rounded-xl bg-gradient-to-r from-cyan-400/20 to-transparent blur-md" />
+        <div className="absolute inset-0 animate-pulse rounded-xl bg-gradient-to-r from-amber-400/20 to-transparent blur-md" />
       </div>
       {children}
     </div>
@@ -35,7 +35,7 @@ const CardSpotlight = ({
 const UseCases = () => {
   const useCases = [
     {
-      icon: <GraduationCap className="h-10 w-10 text-cyan-400" />,
+      icon: <GraduationCap className="h-10 w-10 text-amber-400" />,
       title: 'Education & Research',
       description:
         'COSMEON’s orbital compute, sensing, and verification capabilities open new possibilities for academic and scientific development.',
@@ -47,7 +47,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Shield className="h-10 w-10 text-cyan-400" />,
+      icon: <Shield className="h-10 w-10 text-amber-400" />,
       title: 'Defense & National Security',
       description:
         'Low-latency VLEO infrastructure and orbital storage can support secure, high-resilience defense applications.',
@@ -59,7 +59,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Brain className="h-10 w-10 text-cyan-400" />,
+      icon: <Brain className="h-10 w-10 text-amber-400" />,
       title: 'AI & High-Performance Compute',
       description:
         'As AI models grow larger and global distribution becomes difficult, orbital compute provides new pathways for efficiency and reach.',
@@ -71,7 +71,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Building className="h-10 w-10 text-cyan-400" />,
+      icon: <Building className="h-10 w-10 text-amber-400" />,
       title: 'Government & Public Infrastructure',
       description:
         'Governments require secure digital infrastructure, trusted data flows, and real-time environmental monitoring.',
@@ -83,7 +83,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Briefcase className="h-10 w-10 text-cyan-400" />,
+      icon: <Briefcase className="h-10 w-10 text-amber-400" />,
       title: 'Enterprise & Industry',
       description:
         'COSMEON’s future orbital platform enables enterprises to enhance reliability, transparency, and operational efficiency.',
@@ -95,7 +95,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Newspaper className="h-10 w-10 text-cyan-400" />,
+      icon: <Newspaper className="h-10 w-10 text-amber-400" />,
       title: 'Media, Journalism & Digital Verification',
       description:
         'In the era of AI-generated misinformation, authenticity and trust will define the future of media.',
@@ -107,7 +107,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <RadioTower className="h-10 w-10 text-cyan-400" />,
+      icon: <RadioTower className="h-10 w-10 text-amber-400" />,
       title: 'Telecom, IoT & Mobility',
       description:
         'Billions of connected devices will need reliable updates and trusted data pathways.',
@@ -119,7 +119,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Leaf className="h-10 w-10 text-cyan-400" />,
+      icon: <Leaf className="h-10 w-10 text-amber-400" />,
       title: 'Climate, Agriculture & Environmental Monitoring',
       description:
         'EventGrid’s multi-sensor capability drives powerful applications in environmental stewardship.',
@@ -131,7 +131,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <Scale className="h-10 w-10 text-cyan-400" />,
+      icon: <Scale className="h-10 w-10 text-amber-400" />,
       title: 'Financial & Legal Ecosystems',
       description:
         'Trusted orbital verification could dramatically improve digital governance.',
@@ -143,7 +143,7 @@ const UseCases = () => {
       ],
     },
     {
-      icon: <LifeBuoy className="h-10 w-10 text-cyan-400" />,
+      icon: <LifeBuoy className="h-10 w-10 text-amber-400" />,
       title: 'Humanitarian & Global Safety',
       description:
         'Orbital infrastructure can play a vital role in saving lives and supporting communities.',
@@ -161,9 +161,9 @@ const UseCases = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Use <span className="text-cyan-400">Cases</span>
+            Use <span className="text-amber-400">Cases</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-cyan-400 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-amber-400 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300">
             Our orbital cloud infrastructure serves a wide range of industries and applications, 
             delivering unique advantages that terrestrial solutions cannot match.
@@ -192,7 +192,7 @@ const UseCases = () => {
                   {useCase.examples.map((example, i) => (
                     <li key={i} className="flex items-start">
                       <svg
-                        className="w-5 h-5 text-cyan-400 mr-2 mt-0.5 shrink-0"
+                        className="w-5 h-5 text-amber-400 mr-2 mt-0.5 shrink-0"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

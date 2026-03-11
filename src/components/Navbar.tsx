@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li key={name}>
                   <Link
                     to={`/#${hash}`}
-                    className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
+                    className="text-gray-300 hover:text-amber-400 transition-colors py-2"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {name}
@@ -55,7 +55,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/blog"
-                  className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
+                  className="text-gray-300 hover:text-amber-400 transition-colors py-2"
                 >
                   Blog
                 </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/timeline"
-                  className="text-gray-300 hover:text-cyan-400 transition-colors py-2"
+                  className="text-gray-300 hover:text-amber-400 transition-colors py-2"
                 >
                   Timeline
                 </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
             <Link
               key={name}
               to={`/#${hash}`}
-              className="text-gray-300 hover:text-cyan-400 block px-3 py-2"
+              className="text-gray-300 hover:text-amber-400 block px-3 py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {name}
@@ -112,21 +112,21 @@ const Navbar = () => {
           ))}
           <Link
             to="/blog"
-            className="text-gray-300 hover:text-cyan-400 block px-3 py-2"
+            className="text-gray-300 hover:text-amber-400 block px-3 py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Blog
           </Link>
           <Link
             to="/timeline"
-            className="text-gray-300 hover:text-cyan-400 block px-3 py-2"
+            className="text-gray-300 hover:text-amber-400 block px-3 py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Timeline
           </Link>
           <a
             href="#contact"
-            className="block bg-gradient-to-r from-cyan-500 to-cyan-400 text-darkBlue-900 font-medium px-3 py-2 rounded-full text-center mt-4"
+            className="block bg-gradient-to-r from-amber-500 to-amber-400 text-darkBlue-900 font-medium px-3 py-2 rounded-full text-center mt-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Join the Mission
